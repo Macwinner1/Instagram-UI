@@ -58,7 +58,7 @@
   justify-content: space-evenly;
 }
 #userBio .bioL img {
-    height: 150px;
+  height: 150px;
 }
 .bioR {
   display: flex;
@@ -134,25 +134,42 @@
   color: #9b9696;
 }
 .bioR .biopage a {
-    text-decoration: none;
-    color: #2f2f80;
+  text-decoration: none;
+  color: #2f2f80;
 }
 .bioR .biopage2 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-.bioR .biopage2 span{
-    color: #9b9696;
+.bioR .biopage2 span {
+  color: #9b9696;
 }
 .main .reel-sec {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 80px;
 }
 .main .reel-sec > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .Post-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 15px 0;
+}
+.main .Post-head .sub-ph {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main #Post-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
