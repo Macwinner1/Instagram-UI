@@ -10,7 +10,7 @@ import { IoMdContact } from "react-icons/io";
 
 function Post() {
   return (
-    <div>
+    <div className='Post-wrap'>
       <hr />
       <div className='Post-head'>
         <div className='sub-ph'><BsGrid3X3/>PUBLICATIONS</div>
