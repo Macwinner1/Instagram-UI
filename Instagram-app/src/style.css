@@ -6,6 +6,9 @@
         margin: 0;
         padding: 15px;
         justify-content: flex-start;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
     #nav-bar .Logo {
         height: 75px;
@@ -92,6 +95,9 @@
         margin: 0;
         padding: 15px;
         justify-content: flex-start;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
     #nav-bar .Logo {
         height: 75px;
