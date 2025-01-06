@@ -8,11 +8,11 @@ import squIcon from "../assets/plus-square-svgrepo-com.svg"
 function Nav() {
   return (
     <div>
-    <div id='nav-bar'>
-      <img className='Logo' src={Imagelogo} alt="logo" />
-      <div className='nav-search'>
-      <i class='bx bx-search'></i>
-      <input type="text"  placeholder='Search' />
+      <div id='nav-bar'>
+        <img className='Logo' src={Imagelogo} alt="logo" />
+        <div className='nav-search'>
+        <i class='bx bx-search'></i>
+        <input type="text"  placeholder='Search' />
       </div>
       <div className='nav-icon'>
         <i class='bx bxs-home'></i>
