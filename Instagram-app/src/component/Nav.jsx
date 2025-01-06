@@ -23,17 +23,6 @@ function Nav() {
       <img className='profile-pic' src={Imagepro} alt="profile-pic" />
       </div>
     </div>
-    {/* <div id='nav-bar2'>
-      <img className='Logo' src={Imagelogo} alt="logo" />
-      <div className='nav-icon2'>
-        <i class='bx bxs-home'></i>
-        <img src={msgIcon} />
-        <img src={squIcon} />
-      <i class='bx bx-compass'></i>
-      <i class='bx bx-heart'></i>
-      <img className='profile-pic' src={Imagepro} alt="profile-pic" />
-      </div>
-    </div> */}
     </div>
   )
 }
