@@ -71,30 +71,27 @@
   background-color: #b8b0b0;
 }
 .main {
-  /* border: 1px solid red; */
   margin: 40px 200px;
 }
 #userBio {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* border: 1px solid red; */
 }
 #userBio .bioL img {
   height: 150px;
+  cursor: pointer;
 }
 .bioR {
   display: flex;
   align-items: center;
   gap: 20px;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
 .bioR1 {
   display: flex;
   align-items: flex-start;
   gap: 15px;
-  /* border: 1px solid purple; */
   width: 100%;
 }
 .bioR1 h1 {
@@ -102,12 +99,14 @@
   color: gray;
   font-weight: 400;
   padding-right: 25px;
+  cursor: pointer;
 }
 .bioR1 button {
   padding: 7px 15px;
   border: 1px solid gray;
   background-color: #ffff;
   border-radius: 5px;
+  cursor: pointer;
 }
 .bioR1 .verify-user {
   display: flex;
@@ -116,22 +115,24 @@
   border: 1px solid gray;
   padding: 5px 25px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .bioR1 .bx-chevron-down {
   border: 1px solid gray;
   padding: 7px 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .bioR1 .bx-dots-horizontal-rounded {
   font-size: 30px;
   padding-left: 25px;
+  cursor: pointer;
 }
 .bioR .follow {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* border: 1px solid red; */
 }
 .bioR .follow .post {
   display: flex;
@@ -178,6 +179,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 .main .Post-head {
   display: flex;
