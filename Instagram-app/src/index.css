@@ -4,13 +4,22 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+:root {
+  --primary-color: black;
+  --secondary-color: white ;
+}
+.dark-theme {
+  --primary-color: white;
+  --secondary-color: black ;
+}
+
 #nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
   box-shadow: 1px 1px 5px rgb(172, 169, 169);
-  padding: 0 100px;
+  padding: 0 50px;
   height: 50px;
 }
 #nav-bar .Logo {
@@ -25,7 +34,7 @@
   background-color: #d4d2d2;
   padding: 5px 10px;
   border-radius: 5px;
-  gap: 8px;
+  gap: 10px;
 }
 #nav-bar .nav-search:focus {
   border: none;
@@ -43,6 +52,7 @@
 }
 #nav-bar .profile-pic {
   height: 30px;
+  margin-right: 1,5rem;
 }
 #nav-bar .profile-pic:hover {
   cursor: pointer;
@@ -69,6 +79,10 @@
 #nav-bar .nav-icon .profile-pic {
   border-radius: 50%;
   background-color: #b8b0b0;
+}
+#nav-bar .nav-icon #darkmoon {
+  max-width: 1.5rem;
+  margin-left: 40px;
 }
 .main {
   margin: 40px 200px;
