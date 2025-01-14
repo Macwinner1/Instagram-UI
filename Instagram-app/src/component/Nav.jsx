@@ -4,6 +4,7 @@ import Imagelogo from "../assets/instagram-svgrepo-com.svg"
 import Imagepro from "../assets/Ellipse 1.png"
 import msgIcon from "../assets/messenger-svgrepo-com.svg"
 import squIcon from "../assets/plus-square-svgrepo-com.svg"
+import moonImg from "../assets/moon.png"
 
 function Nav() {
   return (
@@ -21,6 +22,7 @@ function Nav() {
       <i class='bx bx-compass'></i>
       <i class='bx bx-heart'></i>
       <img className='profile-pic' src={Imagepro} alt="profile-pic" />
+      <img id='darkmoon' src={moonImg}/>
       </div>
     </div>
     </div>
